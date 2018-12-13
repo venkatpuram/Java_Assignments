@@ -20,7 +20,7 @@ public class MissingNumberTest {
 	}
 	@Test
 	public void MissingvaluewithZero() {
-		int array[] = {9,8,7,6,5,2,3,1,0};
+		int array[] = {9,7,8,1,5,2,3,6,0};
 		assertEquals(4,missingnumber.getMissingNumber(array));
 	}
 
