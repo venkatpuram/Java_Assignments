@@ -10,11 +10,11 @@ public class DateTest {
 	@Before
 	public void setUp()
 	{
-		date=new Date(13,06,2017);
+		date=new Date(10,06,2017);
 	}
 	@Test
 	public void Stringtest() {
-		assertEquals("13/6/2017",date.toString());
+		assertEquals("10/10/2017",date.toString());
 	}
 	
 	@Test
@@ -24,7 +24,7 @@ public class DateTest {
 
 	@Test
 	public void Differencetest() {
-		int[] expected={2,2,1};
+		int[] expected={5,2,1};
 		assertArrayEquals(expected,date.diff(date));
 	}
 }
