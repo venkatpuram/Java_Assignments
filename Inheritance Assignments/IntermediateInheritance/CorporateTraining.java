@@ -2,13 +2,15 @@ package IntermediateInheritance;
 
 public class CorporateTraining extends Training {
 
-	public CorporateTraining(String subject, int fees) {
+	private int days;
+	public CorporateTraining(String subject, int fees,int days) {
 		super(subject,fees);
+		this.days=days;
 	}
 	
 	@Override
 	public int getOrderValue() {
-		int days=4;
+		
 		int trainingcharges=(fees * days);
 		return trainingcharges;
 	}

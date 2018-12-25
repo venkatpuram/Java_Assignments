@@ -11,8 +11,8 @@ public class TrainingTest {
 	@Before
 	public void setUp()
 	{
-		publictraining = new PublicTraining("java",5000);
-		corporatetraining=new CorporateTraining("big data",35000);
+		publictraining = new PublicTraining("java",5000,50);
+		corporatetraining=new CorporateTraining("big data",35000,4);
 	}
 	@Test
 	public void publicTrainingtest() {
